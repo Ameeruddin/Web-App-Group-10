@@ -5,55 +5,233 @@ View Sport
 {%endblock%}
 
 {%block main%}
-<div>
-<h3>Indoor</h3>
-<div>
-<h2>carrom</h2> 
-                      <ul class="list-group mb-3 px-2" style="overflow-y: scroll;height: 450px;">
-                       <li class="px-4 list-group-item d-flex justify-content-between lh-condensed" style="padding-top: 12px;padding-bottom: 0;">
-                              <h6 class="my-0 font-weight-bold">Sport_ID - {{carroms.sport_id}}</h6>
-                        </li>
-                        <li class="px-4 list-group-item d-flex justify-content-between lh-condensed" style="padding-top: 12px;padding-bottom: 0;">
-                              <h6 class="my-0 font-weight-bold">Sport_Name - {{carroms.sport_name}}</h6>
-                        </li>
-                        <li class="px-4 list-group-item d-flex justify-content-between lh-condensed" style="padding-top: 12px;padding-bottom: 0;">
-                              <h6 class="my-0 font-weight-bold">Sport_Category - {{carroms.sport_category}}</h6>
-                        </li>
-                        <li class="px-4 list-group-item d-flex justify-content-between lh-condensed" style="padding-top: 12px;padding-bottom: 0;">
-                              <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{carroms.mini_team_size}}</h6>
-                        </li>
-                        <li class="px-4 list-group-item d-flex justify-content-between lh-condensed" style="padding-top: 12px;padding-bottom: 0;">
-                              <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{carroms.max_team_size}}</h6>
-                        </li>
-                      </ul>  
-              
-</div>
+<div class="container">
+      <div>
+            <div>
+                  <h2 class="text-primary">Indoor</h2>
+            </div>
+            <div>
+                  <h4 class="text-primary">carrom</h4>
+            </div>
+            <ul class="list-group  ">
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_ID - {{carroms.sport_id}}</h6>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Name - {{carroms.sport_name}}</h6>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Category - {{carroms.sport_category}}</h6>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{carroms.mini_team_size}}</h6>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{carroms.max_team_size}}</h6>
+                  </li>
+            </ul>
+
+
+            <div>
+                  <h4 class="text-primary">Table Tennis</h4>
+            </div>
+            <ul class="list-group  ">
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_ID - {{table_tennis.sport_id}}</h6>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Name - {{table_tennis.sport_name}}</h6>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Category - {{table_tennis.sport_category}}</h6>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{table_tennis.mini_team_size}}</h6>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{table_tennis.max_team_size}}</h6>
+                  </li>
+            </ul>
+
+            <div>
+                  <h4 class="text-primary">Badminton</h4>
+            </div>
+            <ul class="list-group  ">
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_ID - {{badminton.sport_id}}</h6>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Name - {{badminton.sport_name}}</h6>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Category - {{badminton.sport_category}}</h6>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{badminton.mini_team_size}}</h6>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{badminton.max_team_size}}</h6>
+                  </li>
+            </ul>
+
+
+      </div>
+
+
+
+      <div class="mt-5 ">
+            <div pb-2>
+                  <h2 class="px-2  text-primary">Outdoor</h2>
+            </div>
+            <div pb-1>
+                  <h4 class="px-2  text-primary">Football</h4>
+            </div>
+            <ul class="list-group  px-2 " style="">
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_ID - {{football.sport_id}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Name - {{football.sport_name}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Category - {{football.sport_category}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{football.mini_team_size}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{football.max_team_size}}</h6>
+                  </li>
+            </ul>
+
+            <div pb-2>
+                  <h4 class="px-2  text-primary">Cricket</h4>
+            </div>
+            <ul class="list-group  px-2 " style="">
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_ID - {{cricket.sport_id}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Name - {{cricket.sport_name}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Category - {{cricket.sport_category}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{cricket.mini_team_size}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{cricket.max_team_size}}</h6>
+                  </li>
+            </ul>
+
+            <div pb-3>
+                  <h4 class="px-2  text-primary">Basketball</h4>
+            </div>
+            <ul class="list-group  px-2 " style="">
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_ID - {{basketball.sport_id}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Name - {{basketball.sport_name}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Category - {{basketball.sport_category}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{basketball.mini_team_size}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{basketball.max_team_size}}</h6>
+                  </li>
+            </ul>
+
+            <div pb-4>
+                  <h4 class="px-2  text-primary">Kabaddi</h4>
+            </div>
+            <ul class="list-group  px-2 " style="">
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_ID - {{kabaddi.sport_id}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Name - {{kabaddi.sport_name}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Category - {{kabaddi.sport_category}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{kabaddi.mini_team_size}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{kabaddi.max_team_size}}</h6>
+                  </li>
+            </ul>
+
+            <div pb-5>
+                  <h4 class="px-2  text-primary">Baseball</h4>
+            </div>
+            <ul class="list-group  px-2 " style="">
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_ID - {{baseball.sport_id}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Name - {{baseball.sport_name}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Category - {{baseball.sport_category}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{baseball.mini_team_size}}</h6>
+                  </li>
+                  <li class="px-4 list-group-item d-flex justify-content-between lh-condensed"
+                        style="padding-top: 12px;padding-bottom: 0;">
+                        <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{baseball.max_team_size}}</h6>
+                  </li>
+            </ul>
+
+      </div>
+
 </div>
 
 
-<div>
-<h3>Outdoor</h3>
-<div>
-<h2>Football</h2> 
-                      <ul class="list-group mb-3 px-2" style="overflow-y: scroll;height: 450px;">
-                       <li class="px-4 list-group-item d-flex justify-content-between lh-condensed" style="padding-top: 12px;padding-bottom: 0;">
-                              <h6 class="my-0 font-weight-bold">Sport_ID - {{football.sport_id}}</h6>
-                        </li>
-                        <li class="px-4 list-group-item d-flex justify-content-between lh-condensed" style="padding-top: 12px;padding-bottom: 0;">
-                              <h6 class="my-0 font-weight-bold">Sport_Name - {{football.sport_name}}</h6>
-                        </li>
-                        <li class="px-4 list-group-item d-flex justify-content-between lh-condensed" style="padding-top: 12px;padding-bottom: 0;">
-                              <h6 class="my-0 font-weight-bold">Sport_Category - {{football.sport_category}}</h6>
-                        </li>
-                        <li class="px-4 list-group-item d-flex justify-content-between lh-condensed" style="padding-top: 12px;padding-bottom: 0;">
-                              <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{football.mini_team_size}}</h6>
-                        </li>
-                        <li class="px-4 list-group-item d-flex justify-content-between lh-condensed" style="padding-top: 12px;padding-bottom: 0;">
-                              <h6 class="my-0 font-weight-bold">Sport_Min_num_ply - {{football.max_team_size}}</h6>
-                        </li>
-                      </ul>  
-              
-</div>
 
-</div>
 {%endblock%}
