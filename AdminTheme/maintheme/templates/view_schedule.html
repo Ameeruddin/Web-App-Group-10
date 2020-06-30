@@ -9,18 +9,29 @@ View Schedule
 <!-- Content Wrapper -->
 <div id="content-wrapper" class="d-flex flex-column">
 
-      <!-- Main Content -->
-      <div id="content p-0">
-  
-        <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow pb-2">
-  
-          <div class="navbar-header">
-            <h1 class=" px-2  text-primary">VIEW SCHEDULE</h1>
-          </div>
+    <!-- Main Content -->
+    <div id="content p-0">
 
+      <!-- Topbar -->
+      <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow pb-2">
 
-<div class="container">
+        <div class="navbar-header">
+          <h1 class=" px-2  text-primary">ADD SPORT</h1>
+        </div>
+
+        <!-- Sidebar Toggle (Topbar) -->
+        
+                               
+      
+         </nav>
+         
+       
+
+        <!-- Topbar Navbar -->
+        
+          
+</div>
+
   <form method="POST" id="myForm" action="{%url 'view_schedule'%}">
                               {% csrf_token %}
                   <div class="user">
@@ -70,8 +81,6 @@ View Schedule
               {% endfor %}
                   </div>
                   {% endif %}
-                </div>
-
-
+                
 
 {%endblock%}

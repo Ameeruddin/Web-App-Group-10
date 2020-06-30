@@ -57,7 +57,7 @@ def edit_sport(request) :
          end_date=request.POST.get('end_date') 
          print(sport_name,start_date,end_date)
          a = requests.post('https://group-10-api.herokuapp.com/add_dates',headers={'Authorization':f'Bearer {p}'},data={'sport_name':sport_name,'start_date':start_date,'end_date':end_date})
-         print(a)
+        
          return render(request,'edit_sport.html')
     else:
         return render(request,'edit_sport.html')
@@ -77,7 +77,7 @@ def view_sport(request) :
          a = requests.get('https://group-10-api.herokuapp.com/sport_category',headers={'Authorization':f'Bearer {p}'},data={'sport_category':sport_category})
          sc = a.json()
 
-         print(sc)
+         
          return render(request,'view_sport.html',{'sc':sc})
     else:
         return render(request,'view_sport.html',{'sc':"False"})
